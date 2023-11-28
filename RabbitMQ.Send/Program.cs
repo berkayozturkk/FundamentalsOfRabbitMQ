@@ -7,6 +7,9 @@ namespace RabbitMQ.Send
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Press [enter] to send message");
+            Console.Read();
+
             ConnectionFactory factory = new();
 
             factory.HostName = "localhost";
@@ -16,6 +19,7 @@ namespace RabbitMQ.Send
 
             using var connection = factory.CreateConnection();
             using var channel = connection.CreateModel();
+
             channel.QueueDeclare(
             queue: "hello",
             durable: false,
