@@ -3,15 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.Send", "RabbitMQ.Send\RabbitMQ.Send.csproj", "{240B5E52-F115-4F41-99C8-895E4723A971}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.Send", "RabbitMQ.Send\RabbitMQ.Send.csproj", "{240B5E52-F115-4F41-99C8-895E4723A971}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.Receive", "RabbitMQ.Receive\RabbitMQ.Receive.csproj", "{0C3FD2D9-88A4-4AD9-AD17-C51B37CA5F53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.Receive", "RabbitMQ.Receive\RabbitMQ.Receive.csproj", "{0C3FD2D9-88A4-4AD9-AD17-C51B37CA5F53}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WorkQueues", "WorkQueues", "{1BB33016-BB42-4F9E-8B47-F8B97C9797D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkQueues.NewTask", "WorkQueues\WorkQueues.NewTask\WorkQueues.NewTask.csproj", "{D64373D8-17D1-4E2E-A7A7-BCF87AC06D5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkQueues.NewTask", "WorkQueues\WorkQueues.NewTask\WorkQueues.NewTask.csproj", "{D64373D8-17D1-4E2E-A7A7-BCF87AC06D5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkQueues.Worker", "WorkQueues\WorkQueues.Worker\WorkQueues.Worker.csproj", "{05AA6F0C-2AA6-4BC3-9F1F-EBA71B19CB0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkQueues.Worker", "WorkQueues\WorkQueues.Worker\WorkQueues.Worker.csproj", "{05AA6F0C-2AA6-4BC3-9F1F-EBA71B19CB0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishSubsribe", "PublishSubsribe", "{AA446963-D5FA-43BB-9C6C-671F0565E2E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublishSubsribe.EmitLog", "PublishSubsribe\PublishSubsribe.EmitLog\PublishSubsribe.EmitLog.csproj", "{8023F6EA-E343-415B-8BBC-A88D5AF43A10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublishSubsribe.ReceiveLogs", "PublishSubsribe\PublishSubsribe.ReceiveLogs\PublishSubsribe.ReceiveLogs.csproj", "{21DD0E92-3717-43E5-A80E-B2036DBB58A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublishSubscribe.ReceiveSms", "PublishSubsribe\PublishSubscribe.ReceiveSms\PublishSubscribe.ReceiveSms.csproj", "{ADB94EAB-6CF6-4CA0-8CCA-4218E36F2C0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +43,18 @@ Global
 		{05AA6F0C-2AA6-4BC3-9F1F-EBA71B19CB0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05AA6F0C-2AA6-4BC3-9F1F-EBA71B19CB0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05AA6F0C-2AA6-4BC3-9F1F-EBA71B19CB0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8023F6EA-E343-415B-8BBC-A88D5AF43A10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8023F6EA-E343-415B-8BBC-A88D5AF43A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8023F6EA-E343-415B-8BBC-A88D5AF43A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8023F6EA-E343-415B-8BBC-A88D5AF43A10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21DD0E92-3717-43E5-A80E-B2036DBB58A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21DD0E92-3717-43E5-A80E-B2036DBB58A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21DD0E92-3717-43E5-A80E-B2036DBB58A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21DD0E92-3717-43E5-A80E-B2036DBB58A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADB94EAB-6CF6-4CA0-8CCA-4218E36F2C0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB94EAB-6CF6-4CA0-8CCA-4218E36F2C0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB94EAB-6CF6-4CA0-8CCA-4218E36F2C0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB94EAB-6CF6-4CA0-8CCA-4218E36F2C0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +62,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{D64373D8-17D1-4E2E-A7A7-BCF87AC06D5B} = {1BB33016-BB42-4F9E-8B47-F8B97C9797D7}
 		{05AA6F0C-2AA6-4BC3-9F1F-EBA71B19CB0B} = {1BB33016-BB42-4F9E-8B47-F8B97C9797D7}
+		{8023F6EA-E343-415B-8BBC-A88D5AF43A10} = {AA446963-D5FA-43BB-9C6C-671F0565E2E9}
+		{21DD0E92-3717-43E5-A80E-B2036DBB58A6} = {AA446963-D5FA-43BB-9C6C-671F0565E2E9}
+		{ADB94EAB-6CF6-4CA0-8CCA-4218E36F2C0A} = {AA446963-D5FA-43BB-9C6C-671F0565E2E9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {88DD724A-4047-435E-9316-2A61FE5E7B35}
