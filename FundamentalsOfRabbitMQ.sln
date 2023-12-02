@@ -15,11 +15,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkQueues.Worker", "WorkQu
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishSubsribe", "PublishSubsribe", "{AA446963-D5FA-43BB-9C6C-671F0565E2E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublishSubsribe.EmitLog", "PublishSubsribe\PublishSubsribe.EmitLog\PublishSubsribe.EmitLog.csproj", "{8023F6EA-E343-415B-8BBC-A88D5AF43A10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PublishSubsribe.EmitLog", "PublishSubsribe\PublishSubsribe.EmitLog\PublishSubsribe.EmitLog.csproj", "{8023F6EA-E343-415B-8BBC-A88D5AF43A10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublishSubsribe.ReceiveLogs", "PublishSubsribe\PublishSubsribe.ReceiveLogs\PublishSubsribe.ReceiveLogs.csproj", "{21DD0E92-3717-43E5-A80E-B2036DBB58A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PublishSubsribe.ReceiveLogs", "PublishSubsribe\PublishSubsribe.ReceiveLogs\PublishSubsribe.ReceiveLogs.csproj", "{21DD0E92-3717-43E5-A80E-B2036DBB58A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublishSubscribe.ReceiveSms", "PublishSubsribe\PublishSubscribe.ReceiveSms\PublishSubscribe.ReceiveSms.csproj", "{ADB94EAB-6CF6-4CA0-8CCA-4218E36F2C0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PublishSubscribe.ReceiveSms", "PublishSubsribe\PublishSubscribe.ReceiveSms\PublishSubscribe.ReceiveSms.csproj", "{ADB94EAB-6CF6-4CA0-8CCA-4218E36F2C0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Routing", "Routing", "{5E428EA3-8B8B-496F-B026-0CD33698924C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Routing.EmitLog", "Routing\Routing.EmitLog\Routing.EmitLog.csproj", "{4B3608BB-D597-4311-8891-95E2E57CC054}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Routing.RecaiveLogs", "Routing\Routing.RecaiveLogs\Routing.RecaiveLogs.csproj", "{E70E974F-5C66-4DC2-8F2A-D8B545CBF549}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +61,14 @@ Global
 		{ADB94EAB-6CF6-4CA0-8CCA-4218E36F2C0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADB94EAB-6CF6-4CA0-8CCA-4218E36F2C0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADB94EAB-6CF6-4CA0-8CCA-4218E36F2C0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B3608BB-D597-4311-8891-95E2E57CC054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B3608BB-D597-4311-8891-95E2E57CC054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B3608BB-D597-4311-8891-95E2E57CC054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B3608BB-D597-4311-8891-95E2E57CC054}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E70E974F-5C66-4DC2-8F2A-D8B545CBF549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E70E974F-5C66-4DC2-8F2A-D8B545CBF549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E70E974F-5C66-4DC2-8F2A-D8B545CBF549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E70E974F-5C66-4DC2-8F2A-D8B545CBF549}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,6 +79,8 @@ Global
 		{8023F6EA-E343-415B-8BBC-A88D5AF43A10} = {AA446963-D5FA-43BB-9C6C-671F0565E2E9}
 		{21DD0E92-3717-43E5-A80E-B2036DBB58A6} = {AA446963-D5FA-43BB-9C6C-671F0565E2E9}
 		{ADB94EAB-6CF6-4CA0-8CCA-4218E36F2C0A} = {AA446963-D5FA-43BB-9C6C-671F0565E2E9}
+		{4B3608BB-D597-4311-8891-95E2E57CC054} = {5E428EA3-8B8B-496F-B026-0CD33698924C}
+		{E70E974F-5C66-4DC2-8F2A-D8B545CBF549} = {5E428EA3-8B8B-496F-B026-0CD33698924C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {88DD724A-4047-435E-9316-2A61FE5E7B35}
